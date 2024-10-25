@@ -16,6 +16,8 @@ import com.javafullstackguru.entity.User;
 import com.javafullstackguru.exception.ResourceNotFoundException;
 import com.javafullstackguru.service.UserService;
 
+//http://localhost:9000/swagger-ui/index.html
+
 @RestController
 @RequestMapping("/api/users") // Base URL for user operations
 public class UserRestController {
